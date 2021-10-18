@@ -1,0 +1,31 @@
+html{
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+    font-size: 62.5%;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0%;
+    margin: auto;
+    background: linear-gradient(purple, orange);
+    border-radius: 5%;
+    width:70rem;
+    height: 100vh;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    top: 0;
+}
+h1{
+    color: orange;
+    font-size: 5rem;
+}
+
+img{
+    display: block;
+    width: 60rem;
+    padding: 10rem;
+}
