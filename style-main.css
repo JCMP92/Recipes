@@ -1,31 +1,67 @@
+:root{
+    --purple-color: #B142C3;
+    --darkpurple-color: #77225B;
+    --red-orange-color:#DE3A1F;
+
+}
+* {
+    margin: 0;
+    padding: 0;
+  }
+
 html{
     font-family: 'Poppins', sans-serif;
     background-color: black;
     font-size: 62.5%;
 }
-.container{
+#navbar{
+    position: fixed;
     display: flex;
-    flex-direction: column;
-    margin-top: 0%;
-    margin: auto;
-    background: linear-gradient(purple, orange);
-    border-radius: 5%;
-    width:70rem;
-    height: 100vh;
-    justify-content: center;
-    justify-items: center;
+    justify-content: end;
+    width: 100%;
+    background-color: var(--darkpurple-color);
+    top:0;
+    margin: 0;
+}
+#navbar ul{
+    display: flex;
+}
+#navbar li{
+    padding: 2rem;
+    list-style-type: none;
+}
+#navbar a{
+    font-size: 2rem;
+    text-decoration: none;
+    color: white;
+}
+.title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
     align-items: center;
-    align-content: center;
-    text-align: center;
+    margin-top: 4rem;
+    margin: auto;
+    background:var(--purple-color);
+    width:auto;
+    height: 80vh;
     top: 0;
+    border-bottom: solid;
+    border-width: 3rem;
+    border-color: orange;
 }
 h1{
     color: orange;
-    font-size: 5rem;
+    font-size: 7rem;
 }
-
 img{
     display: block;
-    width: 60rem;
-    padding: 10rem;
+    width: 70rem;
+}
+#text-for-title{
+    text-align: center;
+}
+#text-for-title p{
+    font-size: 3rem;
+    color: white;
 }
